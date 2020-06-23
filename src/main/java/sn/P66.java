@@ -1,7 +1,5 @@
 package sn;
 
-import java.util.Arrays;
-
 /**
  * PlusOne
  *
@@ -11,7 +9,6 @@ import java.util.Arrays;
 public class P66 {
     /**
      * my way
-     *
      * @param digits
      * @return
      */
@@ -40,7 +37,6 @@ public class P66 {
 
     /**
      * most votes
-     *
      * @param digits
      * @return
      */
@@ -53,8 +49,8 @@ public class P66 {
             }
             digits[i] = 0;
         }
-        int[] newNumber = new int[n + 1];
-        newNumber[0] = 1;
-        return newNumber;
+        int[] result = new int[n + 1];
+        result[0] = 1;
+        return result;
     }
 }
