@@ -49,8 +49,8 @@ public class P66 {
             }
             digits[i] = 0;
         }
-        int[] result = new int[n + 1];
-        result[0] = 1;
-        return result;
+        int[] array = new int[n + 1];
+        array[0] = 1;
+        return array;
     }
 }
