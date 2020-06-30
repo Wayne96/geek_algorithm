@@ -2,6 +2,9 @@ package sn;
 
 import java.util.Arrays;
 
+/**
+ * 三数之和最近的那个数
+ */
 public class P16 {
 
     public static void main(String[] args) {
