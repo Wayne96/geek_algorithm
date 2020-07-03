@@ -4,11 +4,14 @@ import java.util.Arrays;
 
 /**
  * 三数之和最近的那个数
+ *
+ * @author Wendell
+ * @Date 2020-6-24  11:17:16
  */
-public class P16 {
+public class P16_3Sum_Closest {
 
     public static void main(String[] args) {
-        P16 p = new P16();
+        P16_3Sum_Closest p = new P16_3Sum_Closest();
         //[1,2,4,8,16,32,64,128]
         //82
         int[] a = new int[]{1, 2, 4, 8, 16, 32, 64, 128};

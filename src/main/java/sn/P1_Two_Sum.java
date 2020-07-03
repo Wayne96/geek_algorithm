@@ -7,7 +7,7 @@ import java.util.HashMap;
  * @author Wendell
  * @Date 2020-6-30  11:01:10
  */
-public class P1 {
+public class P1_Two_Sum {
 
     public static void main(String[] args) {
         int[] a = new int[]{1, 2, 5, 7};

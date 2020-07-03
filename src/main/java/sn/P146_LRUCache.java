@@ -3,8 +3,12 @@ package sn;
 import java.util.HashMap;
 import java.util.Map;
 
-public class P146 {
-
+/**
+ * @author Wende
+ * @Date 2020-6-29  11:18:29
+ */
+public class P146_LRUCache {
+    //原生实现  未用LinkedHashMap
     class LRUCache {
 
         private int capacity;

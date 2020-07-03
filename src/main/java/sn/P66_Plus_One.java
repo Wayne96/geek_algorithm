@@ -6,9 +6,10 @@ package sn;
  * @author Wendell
  * @Date 2020年6月23日14:58:29
  */
-public class P66 {
+public class P66_Plus_One {
     /**
      * my way
+     *
      * @param digits
      * @return
      */

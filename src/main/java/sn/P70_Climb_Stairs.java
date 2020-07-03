@@ -6,7 +6,7 @@ package sn;
  * @author wendell
  * @date 2020年6月22日18:56:21
  */
-public class P70 {
+public class P70_Climb_Stairs {
 
 
     //转置

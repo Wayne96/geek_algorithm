@@ -1,20 +1,10 @@
-package test;
-
-import javax.swing.*;
-import java.util.Iterator;
-import java.util.PriorityQueue;
-import java.util.Random;
+package Util;
 
 public class Loop {
 
     public static void main(String[] args) {
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
-        priorityQueue.add(1);
-        priorityQueue.add(2);
-        priorityQueue.add(3);
-        priorityQueue.add(4);
-        priorityQueue.add(5);
-        priorityQueue.poll();
+        Loop p = new Loop();
+        System.out.println(p.findRepeatNumber(new int[]{1, 2, 1}));
 
     }
 
@@ -46,5 +36,19 @@ public class Loop {
         }
     }
 
+    public int findRepeatNumber(int[] nums) {
+        int temp;
+        for (int i = 0; i < nums.length; i++) {
+            while (nums[i] != i) {
+                if (nums[i] == nums[nums[i]]) {
+                    return nums[i];
+                }
+                temp = nums[i];
+                nums[i] = nums[temp];
+                nums[temp] = temp;
+            }
+        }
+        return -1;
+    }
 
 }

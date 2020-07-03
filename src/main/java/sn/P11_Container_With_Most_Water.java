@@ -16,8 +16,11 @@ package sn;
  * 但是，当移动小的指针l后，我们必然可以得出上面的结论：即移动大的指针肯定会越来越小。
  * 所以当下一次比较 a[l+1] 和 a[r] 时，只要移动其中小的那个指针即可。
  * 这样根据指针移动将数组遍历一遍，计算每次移动后的s，记录下那个最大的s即可。
+ *
+ * @author Wedenll
+ * @Date 2020-6-25  22:16:38
  */
-public class P11 {
+public class P11_Container_With_Most_Water {
 
     public int maxArea(int[] height) {
         int s = -1;
