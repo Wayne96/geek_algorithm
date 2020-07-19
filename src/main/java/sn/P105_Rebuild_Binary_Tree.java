@@ -4,7 +4,7 @@ package sn;
  * @author Wendell
  * @Date 2020-6-27  11:13:28
  */
-public class P105_重建二叉树 {
+public class P105_Rebuild_Binary_Tree {
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         return reConstructBinaryTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1);
