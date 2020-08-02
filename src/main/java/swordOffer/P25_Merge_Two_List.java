@@ -1,6 +1,6 @@
 package swordOffer;
 
-public class P25 {
+public class P25_Merge_Two_List {
     public class ListNode {
         int val;
         ListNode next;
@@ -24,7 +24,6 @@ public class P25 {
                 l2 = l2.next;
             }
         }
-
         mark.next = l1 == null ? l2 : l1;
         return head.next;
     }
